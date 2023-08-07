@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: black;
+  padding: 60px 0;
+}
+.container {
+  background-color: #272626;
+  width: 80%;
+  margin: auto;
+  padding: 0 150px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #5F5F5F;
+  border: 3px solid #5F5F5F;
+}
+
+.main-title {
+  font-size: 90px;
+  text-align: center;
+  color: white;
+  margin: 0 0 60px;
+  font-family: 'Lobster Two', cursive;
+}
+.surname {
+  color: red;
+}
+.hero {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.hero .img {
+  width: 400px;
+  border-radius: 40px;
+}
+.hero p {
+  margin: 16px 0;
+}
+.description {
+  color: white;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  margin: 20px 0;
+}
+.list-title {
+  color: red;
+  font-size: 50px;
+  margin: 42px 0;
+  font-family: 'Lobster Two', cursive;
+}
+.comics-list {
+  padding: 0 20px;
+}
+.comics-list li {
+  color: white;
+  font-size: 24px;
+  line-height: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  /* list-style-position: inside; */
+}
+p.footnote {
+  color: white;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 32px 0;
+  text-align: right;
+}
